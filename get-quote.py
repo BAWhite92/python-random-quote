@@ -11,5 +11,8 @@ def main():
 
     print(quotes[rnd])
 
+    rnd = random.randint(0, last)
+    print(quotes[rnd])
+
 if __name__== "__main__":
   main()
